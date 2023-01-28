@@ -1,0 +1,21 @@
+.card-1,
+.card-2,
+.card-3,
+.area-1 {
+  visibility: hidden;
+}
+
+.infos-card {
+  visibility: hidden;
+}
+
+.img-html,
+.img-css,
+.img-js,
+.img-sass,
+.img-react,
+.img-next,
+.img-styled,
+.img-tailwind {
+    visibility: hidden;
+}

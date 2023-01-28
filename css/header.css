@@ -1,0 +1,82 @@
+header {
+  background-color: #030404;
+  height: 76.4rem;
+}
+
+.center {
+  max-width: 1440px;
+  margin: auto;
+  padding: 3.5rem 4%;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content .logo-iuri img {
+  width: 15rem;
+}
+
+.content .items {
+  display: flex;
+  align-items: center;
+}
+
+.content .items > li + li {
+  margin-left: 1rem;
+}
+
+.content .items .items-links {
+  font-size: 1.8rem;
+  color: #cfcbc5;
+  padding: 1.5rem 1rem;
+}
+
+.content-side {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem !important;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.content-text {
+  margin: 5.5rem 0 0 11rem;
+  width: 60%;
+}
+
+.content-text h1 {
+  color: #e8e6e3;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.content-text h1 > span {
+  color: #ff4265;
+}
+
+.content-text p {
+  font-size: 2rem;
+  color: #cfcbc5;
+  margin: 4rem 0 3.5rem;
+}
+
+.content-text a {
+  font-size: 1.8rem;
+  width: 35%;
+  height: 15%;
+  text-align: center;
+  padding-top: 2rem;
+  display: inline-block;
+  background-color: #a9001f;
+  color: #ffff;
+  transition: 0.3s ease;
+}
+
+.content-text a:hover {
+  width: 40%;
+}
